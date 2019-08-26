@@ -22,7 +22,7 @@
             </div>
             <div class="col">
               <!-- Botón para añadir -->
-              <input v-on:click="add" type="button" value="Add Product" class="btn btn-success">
+              <input type="button" value="Add Product" class="btn btn-success">
             </div>
           </div>
         </form>
@@ -42,46 +42,46 @@
             </tr>
           </thead>
           <tbody>
-            <tr v-for="(product, index) in products" v-bind:key="product.id">
-              <td>{{ product.id }}</td>
+            <tr>
+              <td>lalala</td>
               <td>
                 <span v-if="edit_mode && edited.id === index">
                   <!-- Input para editar -->
                   <input v-model="edited.name" class="form-control">
                 </span>
-                <span v-else>{{ product.name }}</span>
+                <span v-else>lalala</span>
               </td>
               <td>
                 <span v-if="edit_mode && edited.id === index">
                   <!-- Input para editar -->
                   <input v-model="edited.description" class="form-control">
                 </span>
-                <span v-else>{{ product.description }}</span>
+                <span v-else>lalalal</span>
               </td>
               <td>
                 <span v-if="edit_mode && edited.id === index">
                   <!-- Input para editar -->
                   <input v-model.number="edited.amount" type="number" class="form-control">
                 </span>
-                <span v-else>{{ product.amount }}</span>
+                <span v-else>lalala</span>
               </td>
               <td>
                 <span v-if="edit_mode && edited.id === index">
                   <!-- Input para editar -->
                   <input v-model.number="edited.price" type="number" class="form-control">
                 </span>
-                <span v-else>$ {{ product.price }}</span>
+                <span v-else>$ lallala</span>
               </td>
               <td>
                 <!-- Botón para confirmar edición -->
                 <span v-if="edit_mode && edited.id === index">
-                  <button v-on:click="update(index)" class="btn btn-secondary">Guardar</button>
+                  <button class="btn btn-secondary">Guardar</button>
                 </span>
                 <span v-else>
                   <!-- Botón para mostrar modo edición -->
-                  <button v-on:click="edit(index)" class="btn btn-info">Actualizar</button>
+                  <button class="btn btn-info">Actualizar</button>
                   <!-- Botón para eliminar productos -->
-                  <button v-on:click="remove(index)" class="btn btn-danger">Borrar</button>
+                  <button class="btn btn-danger">Borrar</button>
                 </span>
               </td>
             </tr>
@@ -118,7 +118,7 @@
           {
             id: 80000345,
             name: 'Samsung Oculus',
-            description: 'Samsung Gear Oculus Vr R325 2017 Ultimo Modelo S9+ ',
+            description: 'Samsung Gear Oculus Vr R325 2017 Ultimo Modelo S9+',
             amount: 5,
             price: 9000
           }
