@@ -102,25 +102,18 @@
         edited: {},
         products: [
           {
-            id: 34,
-            name: 'Producto Ejemplo 1',
-            description: 'Descripción producto 1',
-            amount: 4,
-            price: 21.50
+            id: 80000234,
+            name: 'Apple Airpods 2',
+            description: 'Apple AirPods 2da Generacion Inalam Sellados Orig Gtia 1 Año',
+            amount: 2,
+            price: 18000
           },
           {
-            id: 89,
-            name: 'Producto Ejemplo 2',
-            description: 'Descripción producto 2',
-            amount: 8,
-            price: 200
-          },
-          {
-            id: 456,
-            name: 'Producto Ejemplo 3',
-            description: 'Descripción producto 3',
-            amount: 7,
-            price: 1200
+            id: 80000675,
+            name: 'Amazon Alexa',
+            description: 'Amazon Echo Dot (3 Gen) Alexa Bluetooth Wifi Audio White Box',
+            amount: 1,
+            price: 6000
           }
         ]
       }
