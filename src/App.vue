@@ -114,6 +114,13 @@
             description: 'Amazon Echo Dot (3 Gen) Alexa Bluetooth Wifi Audio White Box',
             amount: 1,
             price: 6000
+          },
+          {
+            id: 80000345,
+            name: 'Samsung Oculus',
+            description: 'Samsung Gear Oculus Vr R325 2017 Ultimo Modelo S9+ ',
+            amount: 5,
+            price: 9000
           }
         ]
       }
