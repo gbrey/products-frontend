@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: itba-products-frontend
-          image: fcatinello/itba-products-frontend
+          image: gbrey/products-frontend:10
           imagePullPolicy: Always
           ports:
             - containerPort: 80
