@@ -26,3 +26,4 @@ stages:
           repository: 'gbrey/products-frontend'
           command: 'buildAndPush'
           Dockerfile: '**/Dockerfile'
+          tags: 'latest'
