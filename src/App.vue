@@ -89,7 +89,7 @@
   export default {
     data() {
       return {
-        title: 'Mi app de productos en GKE!!',
+        title: 'Mi app de productos con Azure Devops!!',
         selected: {},
         edit_mode: false,
         edited: {},
